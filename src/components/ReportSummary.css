@@ -1,0 +1,21 @@
+.summary {
+    width: 420px;
+}
+
+.summaryTitle {
+    font-size: 18px;
+    color: #000000;
+}
+
+.plus,
+.minus {
+    font-size: 30px;
+}
+
+.plus {
+    color: green;
+}
+
+.minus {
+    color: red;
+}

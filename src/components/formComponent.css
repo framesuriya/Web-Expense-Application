@@ -1,0 +1,43 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.form-control {
+    margin: 5px;
+    width: 420px;
+}
+
+input {
+    border: 1px solid #DDDDDD;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.list,
+.amount {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-btn {
+    margin: 5px;
+    width: 420px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    box-shadow: 2px 2px 5px #000000;
+    cursor: pointer;
+    background-color: orangered;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
